@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "outfit", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #202020;
+}
+
+nav.menu-lateral {
+  width: 80px;
+  height: 100%;
+  background-color: #202020;
+  padding: 40px 0 40px 1%;
+  border-right: 2px solid #ff0077;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+nav.menu-lateral:hover {
+  width: 300px;
+}
+
+.btn-expandir {
+  width: 100%;
+  margin-left: -0.3rem;
+}
+
+.btn-expandir > i {
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+}
+
+ul li.item-menu a {
+  color: white;
+  padding: 20px 4%;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 40px;
+  transition: 0.2s;
+}
+
+ul li.item-menu a .text-link {
+  margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i {
+  font-size: 30px;
+}
+
+ul li.item-menu:hover {
+  background-color: #ff0077;
+}
+
+main {
+  color: white;
+  text-align: justify;
+  margin: 0 0 0 5rem;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #ff0077;
+  height: 10%;
+  text-align: center;
+  color: white;
+  margin-left: 5rem;
+}
+
+section {
+  background-color: #ff0077;
+  height: 10%;
+}
